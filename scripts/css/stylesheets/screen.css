@@ -1,0 +1,425 @@
+/*
+	generic
+*/
+/* line 6, ../sass/screen.scss */
+html {
+  position: relative;
+}
+
+/* line 9, ../sass/screen.scss */
+body {
+  position: relative;
+  text-rendering: optimizelegibility;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 28px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 20, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+/* line 26, ../sass/screen.scss */
+h2, h3 {
+  color: #de5e60;
+}
+
+/* line 30, ../sass/screen.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 35, ../sass/screen.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 40, ../sass/screen.scss */
+.sectionheader h3 {
+  color: #fff;
+}
+
+/* line 45, ../sass/screen.scss */
+.vertical-align {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 51, ../sass/screen.scss */
+.sectionheader {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* line 56, ../sass/screen.scss */
+.alternat-container {
+  background-color: #1b1d20;
+}
+
+/* line 60, ../sass/screen.scss */
+.padding-top-100 {
+  padding-top: 100px;
+}
+
+/* line 64, ../sass/screen.scss */
+.givpadding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* line 69, ../sass/screen.scss */
+.givpadding-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*
+	end generic
+*/
+/*
+	Nav bar
+*/
+/* line 83, ../sass/screen.scss */
+.navbar {
+  min-height: 55px;
+  background-color: #fff;
+}
+@media (max-width: 424px) {
+  /* line 90, ../sass/screen.scss */
+  .navbar li a {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 363px) {
+  /* line 98, ../sass/screen.scss */
+  .navbar li a {
+    padding: 10px 5px;
+  }
+}
+/* line 105, ../sass/screen.scss */
+.navbar .navbar-toggle {
+  border-color: #2f3238;
+}
+/* line 107, ../sass/screen.scss */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #2f3238;
+}
+/* line 112, ../sass/screen.scss */
+.navbar li {
+  display: inline-block;
+}
+/* line 117, ../sass/screen.scss */
+.navbar li a {
+  border-top: 2px solid transparent;
+}
+/* line 120, ../sass/screen.scss */
+.navbar li a:hover {
+  border-color: #de5e60;
+}
+/* line 124, ../sass/screen.scss */
+.navbar li a:focus, .navbar li a:active {
+  color: initial;
+  border-color: transparent;
+}
+/* line 131, ../sass/screen.scss */
+.navbar li.active a {
+  border-color: #de5e60;
+  color: #de5e60;
+}
+
+/*
+	End Nav bar
+*/
+/*
+
+	main header
+*/
+/* line 153, ../sass/screen.scss */
+.jumbotron {
+  background-color: #2f3238;
+  margin-bottom: 0;
+}
+/* line 157, ../sass/screen.scss */
+.jumbotron .header-main {
+  text-align: center;
+  position: relative;
+  display: table;
+  vertical-align: middle;
+  height: calc(100vh - 48px);
+}
+
+/*
+
+	End  main header
+*/
+/*
+
+	About
+*/
+/* line 185, ../sass/screen.scss */
+.about .img-wrap img {
+  /*width: 372px;
+  height: 269px;*/
+  background-color: #1b1d20;
+}
+/* line 192, ../sass/screen.scss */
+.about .about-text {
+  margin-bottom: 30px;
+}
+/* line 194, ../sass/screen.scss */
+.about .about-text .description {
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  /* line 192, ../sass/screen.scss */
+  .about .about-text {
+    margin-bottom: 0;
+  }
+}
+/* line 203, ../sass/screen.scss */
+.about .fullname {
+  font-size: 30px;
+  color: #fff;
+  line-height: 0.8em;
+}
+/* line 210, ../sass/screen.scss */
+.about .skillset > div {
+  margin-top: 30px;
+}
+
+/*
+	End About
+*/
+/*
+	myWork
+*/
+/* line 228, ../sass/screen.scss */
+.myWork .work-nav {
+  margin-bottom: 50px;
+  text-align: left;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  /* line 228, ../sass/screen.scss */
+  .myWork .work-nav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 239, ../sass/screen.scss */
+  #mazaik-container {
+    width: 280px;
+    margin: 0px auto;
+  }
+}
+
+/* line 248, ../sass/screen.scss */
+.mozaikMyWork .mozaik-item {
+  position: absolute;
+  float: left;
+  min-height: 1px;
+  max-width: 270px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+  background-color: #32353b;
+  overflow: hidden;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  /* line 248, ../sass/screen.scss */
+  .mozaikMyWork .mozaik-item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/*
+  footer
+*/
+/* line 271, ../sass/screen.scss */
+.footer {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 276, ../sass/screen.scss */
+.footer .icons {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #1b1d20;
+  text-align: center;
+}
+/* line 285, ../sass/screen.scss */
+.footer .icons span {
+  display: table-cell;
+  vertical-align: middle;
+  width: inherit;
+  height: inherit;
+}
+/* line 292, ../sass/screen.scss */
+.footer .icons:hover {
+  color: #fff;
+  background-color: #de5e60;
+}
+
+/*
+end footer
+*/
+/* line 302, ../sass/screen.scss */
+.alert {
+  padding: 3px 10px;
+}
+
+/* ==================================================
+   Preloader
+================================================== */
+/* line 311, ../sass/screen.scss */
+#jpreOverlay,
+#jSplash {
+  background-color: #2F3238;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 700;
+}
+
+/* line 320, ../sass/screen.scss */
+#jpreSlide {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  margin: -50px 0 0 -50px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 329, ../sass/screen.scss */
+#jpreLoader {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+}
+
+/* line 336, ../sass/screen.scss */
+#jprePercentage {
+  width: 50px;
+  height: 50px !important;
+  line-height: 50px;
+  position: absolute !important;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  margin: -25px 0 0 -25px;
+  z-index: 800;
+  font-size: 24px;
+  color: #FFFFFF;
+  -webkit-animation: circle 1s infinite forwards;
+  -moz-animation: circle 1s infinite forwards;
+  -ms-animation: circle 1s infinite forwards;
+  -o-animation: circle 1s infinite forwards;
+  animation: circle 1s infinite forwards;
+}
+
+/* line 357, ../sass/screen.scss */
+#circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 11;
+  margin: -50px 0 0 -50px;
+  width: 100px;
+  height: 100px;
+  background: #DE5E60;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-animation: circle 1s infinite forwards;
+  -moz-animation: circle 1s infinite forwards;
+  -ms-animation: circle 1s infinite forwards;
+  animation: circle 1s infinite forwards;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    -webkit-animation-timing-function: ease-in;
+  }
+  50% {
+    -webkit-transform: rotateY(180deg);
+    -webkit-animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+@-moz-keyframes circle {
+  0% {
+    -moz-transform: rotateY(0deg);
+  }
+  50% {
+    -moz-transform: rotateY(180deg);
+    -moz-animation-timing-function: ease-out;
+  }
+  100% {
+    -moz-transform: rotateY(0deg);
+    -moz-animation-timing-function: ease-in;
+  }
+}
+@-ms-keyframes circle {
+  0% {
+    -ms-transform: rotateY(0deg);
+    -ms-animation-timing-function: ease-in;
+  }
+  50% {
+    -ms-transform: rotateY(180deg);
+    -ms-animation-timing-function: ease-out;
+  }
+  100% {
+    -ms-transform: rotateY(0deg);
+    -ms-animation-timing-function: ease-in;
+  }
+}
+@-o-keyframes circle {
+  0% {
+    -o-transform: rotateY(0deg);
+    -o-animation-timing-function: ease-in;
+  }
+  50% {
+    -o-transform: rotateY(180deg);
+    -o-animation-timing-function: ease-out;
+  }
+  100% {
+    -o-transform: rotateY(0deg);
+    -o-animation-timing-function: ease-in;
+  }
+}
+@keyframes circle {
+  0% {
+    transform: rotateY(0deg);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: rotateY(180deg);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: rotateY(0deg);
+    animation-timing-function: ease-in;
+  }
+}
