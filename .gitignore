@@ -1,0 +1,26 @@
+#Grunt
+*.sw*
+*~
+/build/
+/dist/
+bin/
+node_modules/
+bower_components
+
+#NPM Excludes
+npm-debug.log
+node_modules
+
+#intelliJ
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.DS_Store
+log/
+target/
+
+# Sublime project files
+*.sublime
