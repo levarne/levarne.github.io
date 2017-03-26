@@ -1,0 +1,3 @@
+[submodule "specmyride"]
+	path = specmyride
+	url = https://github.com/levarne/specmyride.git
